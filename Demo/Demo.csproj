@@ -50,6 +50,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DataGrid.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataGrid.Designer.cs">
+      <DependentUpon>DataGrid.cs</DependentUpon>
+    </Compile>
     <Compile Include="DataMag.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -70,6 +76,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="DataGrid.resx">
+      <DependentUpon>DataGrid.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="DataMag.resx">
       <DependentUpon>DataMag.cs</DependentUpon>
     </EmbeddedResource>

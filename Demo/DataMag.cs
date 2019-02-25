@@ -53,7 +53,11 @@ namespace Demo
                 + ";pwd=" + adminpass.Text.Trim());
                     con.Open();
                     if (con.State == ConnectionState.Open)
-                        MessageBox.Show("Open");
+                    {
+                        DataGrid dag = new DataGrid(con);
+                        dag.Show();
+                    }
+
                 }
                 catch(Exception ex)
                 {
