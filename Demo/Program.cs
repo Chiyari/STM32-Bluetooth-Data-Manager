@@ -18,5 +18,14 @@ namespace Demo
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Main());
         }
+
+        static public class DataBaseInfo
+        {
+            static public string DatabaseName;
+            static public string TableName;
+            static public string AdminName;
+            static public string AdminPass;
+            static public string ServerAdd;
+        }      
     }
 }
