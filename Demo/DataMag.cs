@@ -61,5 +61,23 @@ namespace Demo
                 }
             }
         }
+
+        private void basename_Enter(object sender, EventArgs e)
+        {
+            basename.Text = "";
+            basename.ForeColor = Color.Black;
+        }
+
+        private void tablename_Enter(object sender, EventArgs e)
+        {
+            tablename.Text = "";
+            tablename.ForeColor = Color.Black;
+        }
+
+        private void baseadd_Enter(object sender, EventArgs e)
+        {
+            baseadd.Text = "";
+            baseadd.ForeColor = Color.Black;
+        }
     }
 }

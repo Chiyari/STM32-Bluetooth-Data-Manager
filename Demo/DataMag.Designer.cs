@@ -53,17 +53,23 @@
             // 
             // basename
             // 
+            this.basename.ForeColor = System.Drawing.SystemColors.WindowFrame;
             this.basename.Location = new System.Drawing.Point(165, 125);
             this.basename.Name = "basename";
             this.basename.Size = new System.Drawing.Size(178, 25);
             this.basename.TabIndex = 1;
+            this.basename.Text = "test";
+            this.basename.Enter += new System.EventHandler(this.basename_Enter);
             // 
             // tablename
             // 
+            this.tablename.ForeColor = System.Drawing.SystemColors.WindowFrame;
             this.tablename.Location = new System.Drawing.Point(165, 168);
             this.tablename.Name = "tablename";
             this.tablename.Size = new System.Drawing.Size(178, 25);
             this.tablename.TabIndex = 2;
+            this.tablename.Text = "data";
+            this.tablename.Enter += new System.EventHandler(this.tablename_Enter);
             // 
             // adminname
             // 
@@ -82,10 +88,13 @@
             // 
             // baseadd
             // 
+            this.baseadd.ForeColor = System.Drawing.SystemColors.WindowFrame;
             this.baseadd.Location = new System.Drawing.Point(165, 297);
             this.baseadd.Name = "baseadd";
             this.baseadd.Size = new System.Drawing.Size(178, 25);
             this.baseadd.TabIndex = 5;
+            this.baseadd.Text = "127.0.0.1";
+            this.baseadd.Enter += new System.EventHandler(this.baseadd_Enter);
             // 
             // label1
             // 
